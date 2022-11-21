@@ -37,7 +37,7 @@ nav a {
 
     color: #000000;
 
-    margin: auto 10px auto 10px;
+    margin: auto 15px auto 15px;
 
     text-decoration: double;
 
@@ -58,6 +58,7 @@ nav li {
     margin-left: 20px;
 
     margin-right: 15px;
+    margin-top: 15px;
 
     font-weight: bold;
 
@@ -81,7 +82,7 @@ h1 {
     color: #000000;
     text-align: center;
     font-size: 19mm;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
     font-weight: 100;
     text-shadow: 4px 4px gray;
     font-style: italic;
@@ -99,7 +100,7 @@ p {
     color: black;
     text-align: center;
     font-weight: bolder;
-    font-size: 5.5mm;
+    font-size: 5mm;
 }
 
 ul {
