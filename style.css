@@ -1,28 +1,128 @@
+.title {
+    background-image: linear-gradient(to right, #9f0100, #ffffff, #000000);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10em;
+    margin: 0px;
+}
+
+body {
+
+    padding: 0;
+
+    margin: 0;
+
+}
+
+nav {
+
+    width: 100%;
+
+    line-height: .6;
+
+    display: flex;
+
+    position: absolute;
+
+    justify-content: space-between;
+
+    background-image: linear-gradient(to right, #ffffff, #000000, #9f0100);
+
+    z-index: 80;
+
+}
+
+nav a {
+
+    color: #000000;
+
+    margin: auto 10px auto 10px;
+
+    text-decoration: double;
+
+    font-weight: bold;
+
+    font-size: 9mm;
+
+    text-shadow: 4px 4px gray;
+
+}
+
+nav li {
+
+    float: right;
+
+    list-style: none;
+
+    margin-left: 20px;
+
+    margin-right: 15px;
+
+    font-weight: bold;
+
+    font-size: 7mm;
+
+    text-shadow: 4px 4px #3e0100;
+
+}
+
+
+.container {
+    opacity: 1;
+    /*background: url(./Sem\ título.png)*/
+    background: linear-gradient(90deg, #9f0100, 0%, #9f0100, 33%, #ffffff, 33%, #ffffff, 67%, #000000, 67%, #000000);
+
+}
+
+
+
 h1 {
-    color: #FF0000;
+    color: #000000;
     text-align: center;
+    font-size: 19mm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    text-shadow: 4px 4px gray;
+    font-style: italic;
+
+
 }
 
 h2 {
-    color: white;
+    color: black;
     text-align: center;
+    font-weight: bolder;
 }
 
 p {
-    color: red;
+    color: black;
     text-align: center;
-  }
- 
+    font-weight: bolder;
+    font-size: 5.5mm;
+}
+
 ul {
     color: white;
 }
 
 li {
     text-align: center;
+    color: black;
 }
 
 div {
     color: white;
     text-align: center;
+    margin: 0%;
+}
+
+footer {
+    text-align: center;
+}
+
+.topicos {
+    display: flex;
+    justify-content: center;
 }
 
